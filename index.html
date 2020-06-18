@@ -12,24 +12,22 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <!--header-->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-6 col-sm-7 col-md-8 col-lg-8 col-xl-10 bg-light">
-        <p class="title">SMS your order at 017xxxxxxxx</p>
-        
-      </div>
-      <div class="col-6 col-sm-5 col-md-4 col-lg-4 col-xl-2 bg-light">
-        <button type="button" class="btn btn-light log">Log In</button>
-        <button type="button" class="btn btn-light sign">Sign Up</button>
-      </div>
+    <div class="head">
+        <div class="d-flex  bg-light head">
+            <div class="mr-auto "><p class="title">SMS your order at 017xxxxxxxx</p></div>
+            <div class=""><button type="button" class="btn  log">Log In</button></div>
+            <div class=""><button type="button" class="btn sign">Sign Up</button></div>
+        </div>
     </div>
-  </div>
+  
+
+
 
   <!--navbar-->
   <nav class="navbar navbar-expand-lg navbar-light bg-info ">
@@ -72,6 +70,8 @@
         <i class="fa fa-cart-plus cart"> 2 </i>
   </nav>
     
+
+
     <!--carousel part-->
     <div id="demo" class="carousel slide banner" data-ride="carousel">
 
@@ -84,16 +84,16 @@
         
         <!-- The slideshow -->
         <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="image/Main_Banner.jpg" alt="Los Angeles" width="1400" height="700">
-        </div>
-        <div class="carousel-item">
-            <img src="image/Main_Banner.jpg" alt="Chicago" width="1400" height="700">
-        </div>
-        <div class="carousel-item">
-            <img src="image/Main_Banner.jpg" alt="New York" width="1400" height="700">
-        </div>
-        </div>
+            <div class="carousel-item active">
+                <img src="image/Main_Banner.jpg" alt="Los Angeles" width="1400" height="700">
+            </div>
+            <div class="carousel-item">
+                <img src="image/Main_Banner.jpg" alt="Chicago" width="1400" height="700">
+            </div>
+            <div class="carousel-item">
+                <img src="image/Main_Banner.jpg" alt="New York" width="1400" height="700">
+            </div>
+       </div>
         
         <!-- Left and right controls -->
         <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -103,6 +103,190 @@
         <span class="carousel-control-next-icon"></span>
         </a>
    </div>
+
+
+
+
+
+   <!--top sale part-->
+   <div class="container">
+       <h3>Top Sale</h3><hr><br>
+
+       <div id="demo1" class="carousel slide banner" data-ride="carousel">
+           <!-- The slideshow -->
+           <div class="carousel-inner-sale top_sale">
+               <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="carousel carousel-showmanymoveone slide" id="itemslider">
+                          <div class="carousel-inner">
+                                <div class="item active medicine_1">
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                                        <a href="#"><img src="image/Medicine_1.jpg" class="img-responsive center-block"></a>
+                                        <h4 class="text">Napa Extra 500 mg</h4>
+                                        <h3>Generic: Paracetamol2</h3>
+                                        <span>
+                                            <i class='fas fa-star' style='font-size:20px;color:rgb(241, 207, 11)'></i>
+                                            <i class='fas fa-star' style='font-size:20px;color:rgb(241, 207, 11)'></i>
+                                            <i class='fas fa-star' style='font-size:20px;color:rgb(241, 207, 11)'></i>
+                                            <i class='fas fa-star' style='font-size:20px;color:rgb(241, 207, 11)'></i>
+                                            <i class='far fa-star' style='font-size:20px;color:rgb(241, 207, 11)'></i>
+                                        </span>
+                                        <h4>Status: Available</h4>
+                                        <h4>Price: 30 BDT</h4>
+                                        <span>
+                                            <button type="button" class="btn btn-info btn-sm log">Know More</button>
+                                            <button type="button" class="btn btn-warning btn-sm sign">Add to Cart</button>
+                                        </span>
+                                    </div>
+                                </div>
+                    
+                                <div class="item medicine_2">
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                                        <a href="#"><img src="image/Medicine_2.jpg" class="img-responsive center-block"></a>
+                                        <h4 class="text">Napa Extra 500 mg</h4>
+                                        <h3>Generic: Paracetamol2</h3>
+                                        <span>
+                                            <i class='fas fa-star' style='font-size:20px;color:rgb(241, 207, 11)'></i>
+                                            <i class='fas fa-star' style='font-size:20px;color:rgb(241, 207, 11)'></i>
+                                            <i class='fas fa-star' style='font-size:20px;color:rgb(241, 207, 11)'></i>
+                                            <i class='fas fa-star' style='font-size:20px;color:rgb(241, 207, 11)'></i>
+                                            <i class='far fa-star' style='font-size:20px;color:rgb(241, 207, 11)'></i>
+                                        </span>
+                                        <h4>Status: Available</h4>
+                                        <h4>Price: 30 BDT</h4>
+                                        <span>
+                                            <button type="button" class="btn btn-info btn-sm log">Know More</button>
+                                            <button type="button" class="btn btn-warning btn-sm sign">Add to Cart</button>
+                                        </span>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+              <span class="carousel-control-prev-icon bg-danger"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo1" data-slide="next">
+              <span class="carousel-control-next-icon bg-danger"></span>
+            </a>
+       </div>
+    </div>
+    <br><br><br><br><br>
+
+
+
+
+
+    <!--midddle banner part-->
+    <div class="containe">
+        <div class="row">
+          
+          <div class="col-xs-12 col-sm-8 col-md-8 col-lg-6 middle_banner">
+             <img src="image/Middle_Banner.jpg" class="img-thumbnail img-fluid " alt="Cinque Terre" width="2000" height="400" >
+          </div>
+          
+        </div>
+    </div><br><br><br><br>
+
+
+
+
+
+    <!--blog part-->
+    <div class="container">
+        <h3>Blog</h3><hr><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="blog-item first-blog">
+                    <h4>COVID 19</h4>
+                    <div class="icon">
+                        <img class="blogs" src="image/blog1.jpg" alt="blog1">
+                    </div>
+                    
+                    <p>As vast as the field of healthcare and medicine is, the internet contains a wide array of interesting medical and health blogs that range from personal to informative. There’s always a blog for every preference, whether for a struggling medical student, a thriving healthcare professional or a curious health enthusiast.</p>
+                    <br>
+                    <a href="#" class="">See More</a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="blog-item second-blog">
+                    <h4>Coming Medicine</h4>
+                    <div class="icon">
+                        <img class="blogs" src="image/blog2.jpg" alt="blog2">
+                    </div>
+                    
+                    <p>As vast as the field of healthcare and medicine is, the internet contains a wide array of interesting medical and health blogs that range from personal to informative. There’s always a blog for every preference, whether for a struggling medical student, a thriving healthcare professional or a curious health enthusiast.</p>
+                    <br><a href="#" class="">See More</a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="blog-item third-blog">
+                    <h4>Remdisivir</h4>
+                    <div class="icon">
+                        <img class="blogs" src="image/blog3.jpg" alt="blog3">
+                    </div>
+                    
+                    <p>As vast as the field of healthcare and medicine is, the internet contains a wide array of interesting medical and health blogs that range from personal to informative. There’s always a blog for every preference, whether for a struggling medical student, a thriving healthcare professional or a curious health enthusiast.</p>
+                    <br><a href="#" class="">See More</a>
+                </div>
+            </div>
+        </div>
+
+    </div>  <br><br><br>  
+
+
+
+
+
+
+    <!--footer part-->
+    <div class=" container-fluid footer_back">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-3 text-light">
+                    <h3>DhakaMed</h3>
+                    <p>As vast as the field of healthcare and medicine whether.</p>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-3 text-light">
+                    <h3>Newslatter</h3>
+                    <span>
+                        <form action="#">
+                            <div class="form-group">
+                              <input type="email" class="form-control" placeholder="Email *" id="email">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                          </form>
+                    </span>
+
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-3 text-light">
+                    <h3>Information</h3>
+                    <p>About Us</p>
+                    <p>Delivery Information</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms & Conditions</p>
+
+
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-3 text-light">
+                    <h3>Account</h3>
+                    <p>My Account</p>
+                    <p>Order History</p>
+                    <p>Newslatters</p>
+
+                </div>
+            </div>
+           
+            <br><br><p  class=" text-light copyright">@COPYRIGHT2020</p>
+        </div>
+             <!-- <br><br><br><p  class="justify-content-middle text-light">@COPYRIGHT 2020</p>-->
+    </div>
+
 
 </body>
 </html>

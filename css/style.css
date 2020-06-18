@@ -1,28 +1,18 @@
 body{
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 
 /*header part*/
 .title{
-    transform: translate(0px, 8px);
+    width:200px;
+    transform: translate(5px, 8px);
 }
-.log{
-    margin-left: 48px;
+.head{
+    width:100%;
 }
 
-
-/*header part media query*/
-@media(max-width:414px){
-    .log{
-        font-size: 14px;
-        transform: translate(-70px, 18px);
-    }
-    .sign{
-        font-size: 14px;
-        transform: translate(55px, -17px);
-    }
-}
 
 
 /*navigation part*/
@@ -40,13 +30,77 @@ body{
 }
 
 
+
+/* main banner part image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner{
+    margin-top: -1px;
+    transform: translate(0px, -19px);
+}
+
+
+
+/*footer part*/
+.footer_back{
+    background-color:rgb(46, 44, 44);
+    width:100%;
+    
+}
+
+
+
+/*-----------------------------------------MEDIA QUERY--------------------------------------------------*/
+
+/*header part media query*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .title{
+        width:180px;
+        
+    }
+    .log{
+        transform: translate(-20px, 9px);
+    }
+    .sign{
+        transform: translate(-20px, 9px);
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+
+
+
+
+
+
 /* media query navigation part*/
-@media(max-width:1024px){
+/*@media(max-width:1024px){
     .mennu{
        margin-left: 0px;
     }
 }
-
 @media(max-width:414px){
     .formm{
        margin-left: 30px;
@@ -58,16 +112,217 @@ body{
        margin-left: -15px;
        width: 100px;
     }
+}*/
+@media only screen and (max-width: 600px) {
+    .mennu{
+        margin-left: 0px;
+    }
+    .formm{
+        margin-left: -120px;
+        width: 100px;
+     }
+    .dhakamed{
+        margin-left: -110px;
+     }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }
 
 
-/* main banner part image fully responsive */
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
+
+
+
+/*media query top sale part*/
+@media only screen and (min-width: 600px) {
+    .medicine_1{
+        margin-left: 100px;
+        width:600px;
+    }
+      
+    .medicine_2{
+        margin-left: 100px;
+        width:600px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .medicine_1{
+        margin-left: 200px;
+        
+    }
+      
+    .medicine_2{
+        margin-left: 200px;
+        
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .medicine_1{
+        margin-left: 300px;
+        width:1000px;
+    }
+      
+    .medicine_2{
+        margin-left:330px;
+        width:1000px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .medicine_1{
+        margin-left: 370px;
+        width:1000px;
+    }
+      
+    .medicine_2{
+        margin-left:370px;
+        width:1000px;
+    }
 }
 
-.banner{
-    margin-top: -1px;
-    transform: translate(0px, -19px);
+
+
+
+
+
+
+/*media query middle banner part*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .middle_banner{
+        margin-left: 80px;
+        width:1000px;
+        
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .middle_banner{
+        margin-left: 130px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .middle_banner{
+        margin-left: 160px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .middle_banner{
+        margin-left: 350px;
+    }
+}
+
+
+
+
+
+
+
+
+/*media query for latest blogs*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+        .blogs{
+            width:300px;
+            height: 300px;
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .blogs{
+        width:150px;
+        height: 200px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .blogs{
+        width:190px;
+        height: 200px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .blogs{
+        width:230px;
+        height: 200px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .blogs{
+        width:290px;
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+/*media qury footer part*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .copyright{
+        margin-right: 200px;
+        
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .copyright{
+        margin-right: 400px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .copyright{
+        margin-right: 600px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .copyright{
+        margin-left: 350px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .copyright{
+        margin-right: 600px;
+    }
 }
